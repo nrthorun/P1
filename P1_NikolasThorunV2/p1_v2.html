@@ -1,0 +1,228 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=windows-1252"/>
+	<title></title>
+	<meta name="generator" content="LibreOffice 5.2.4.2 (Windows)"/>
+	<meta name="created" content="2017-01-17T11:01:09.559000000"/>
+	<meta name="changed" content="2017-01-17T22:42:55.978000000"/>
+	<style type="text/css">
+		@page { margin: 2cm }
+		p { margin-bottom: 0.25cm; line-height: 120% }
+	</style>
+</head>
+<body lang="pt-BR" dir="ltr">
+<p align="center" style="margin-bottom: 0cm; line-height: 100%"><font face="Arial, sans-serif"><font size="4" style="font-size: 14pt"><b>Projeto
+1: Estat&iacute;stica &ndash; Efeito Stroop</b></font></font></p>
+<p align="center" style="margin-bottom: 0cm; line-height: 100%"><font face="Arial, sans-serif"><font size="3" style="font-size: 12pt"><b>Nanodegree
+Analista de Dados</b></font></font></p>
+<p align="center" style="margin-bottom: 0cm; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0cm; line-height: 100%"><font face="Arial, sans-serif"><font size="3" style="font-size: 12pt">Autor:
+Nikolas Thorun</font></font></p>
+<p style="margin-bottom: 0cm; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0cm; line-height: 100%"><font face="Arial, sans-serif"><font size="3" style="font-size: 12pt"><b>Quest&otilde;es
+para investiga&ccedil;&atilde;o:</b></font></font></p>
+<p style="margin-bottom: 0cm; line-height: 100%"><a name="docs-internal-guid-1c723faf-ac86-909b-27ba-a270fa0495cf"></a>
+<font face="Arial, sans-serif"><font size="3" style="font-size: 12pt"><b>1)
+<span style="font-variant: normal"><font color="#000000"><span style="text-decoration: none"><span style="font-style: normal"><span style="background: transparent">Qual
+&eacute; a nossa vari&aacute;vel independente? Qual &eacute; a nossa
+vari&aacute;vel dependente?</span></span></span></font></span></b></font></font></p>
+<p style="margin-bottom: 0cm; font-variant: normal; font-style: normal; font-weight: normal; line-height: 100%; text-decoration: none">
+<font color="#000000"><font face="Arial, sans-serif"><font size="3" style="font-size: 12pt"><span style="background: transparent">	A
+vari&aacute;vel independente &eacute; a condi&ccedil;&atilde;o de
+congru&ecirc;ncia(se as palavras s&atilde;o congruentes com as cores
+ou n&atilde;o). A vari&aacute;vel dependente &eacute; o tempo de
+resposta do indiv&iacute;duo, pois varia de acordo com a condi&ccedil;&atilde;o
+de congru&ecirc;ncia.</span></font></font></font></p>
+<p style="margin-bottom: 0cm; font-variant: normal; font-style: normal; font-weight: normal; line-height: 100%; text-decoration: none">
+<br/>
+
+</p>
+<p style="margin-bottom: 0cm; line-height: 100%"><a name="docs-internal-guid-1c723faf-ac86-baf8-1bfb-4f1505058f02"></a>
+<font face="Arial, sans-serif"><font size="3" style="font-size: 12pt"><b>2)
+<span style="font-variant: normal"><font color="#000000"><span style="text-decoration: none"><span style="font-style: normal"><span style="background: transparent">Qual
+seria um conjunto apropriado de hip&oacute;teses para essa tarefa?
+Que tipo de teste estat&iacute;stico voc&ecirc; espera executar?
+Justifique suas escolhas.</span></span></span></font></span> </b></font></font>
+</p>
+<p style="margin-bottom: 0cm; line-height: 100%"><font face="Arial, sans-serif"><font size="3" style="font-size: 12pt">	O
+tempo m&eacute;dio de resposta dos indiv&iacute;duos aos dois testes
+&eacute; muito diferente? Ou seja, dado um determinado n&iacute;vel
+alfa, rejeitaremos o nulo ou n&atilde;o?</font></font></p>
+<p style="margin-bottom: 0cm; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0cm; height: 60%; line-height: 100%"><img src="p1_v2_html_91f65a875ef59fd9.png" name="Image3" align="left" width="630" height="411" border="0"/>
+<br/>
+
+</p>
+<p style="margin-bottom: 0cm; line-height: 100%"><font face="Arial, sans-serif"><font size="3" style="font-size: 12pt">O
+teste estat&iacute;stico esperado para executar esta tarefa &eacute;
+o teste t, pois n&atilde;o conhecemos a m&eacute;dia e o desvio
+padr&atilde;o da popula&ccedil;&atilde;o e, al&eacute;m disso, o
+tamanho da amostra &eacute; pequeno(n&lt;30), impossibilitando a
+utiliza&ccedil;&atilde;o do teste z. O teste t serve para apontar o
+qu&atilde;o diferentes duas amostras s&atilde;o uma da outra e o
+utilizaremos com vari&aacute;veis dependentes, pois queremos medir a
+diferen&ccedil;a dos par&acirc;metros pessoais depois de uma
+interven&ccedil;&atilde;o(a introdu&ccedil;&atilde;o de um teste com
+palavras incongruentes com as cores). Como queremos saber se as
+amostras s&atilde;o diferentes uma da outra, o teste t ser&aacute;
+bicaudal, pois o valor da estat&iacute;stica t poder&aacute; ser
+muito positivo ou muito negativo.</font></font></p>
+<p style="margin-bottom: 0cm; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0cm; line-height: 100%"><a name="docs-internal-guid-1c723faf-ac90-41b5-40e5-5725378a4eb7"></a>
+<font face="Arial, sans-serif"><font size="3" style="font-size: 12pt"><b>3)
+<span style="font-variant: normal"><font color="#000000"><span style="text-decoration: none"><span style="font-style: normal"><span style="background: transparent">Reporte
+alguma estat&iacute;stica descritiva em rela&ccedil;&atilde;o a esse
+conjunto de dados. Inclua, pelo menos, uma medida de tend&ecirc;ncia
+central de pelo menos uma medida de variabilidade.</span></span></span></font></span></b></font></font></p>
+<p style="margin-bottom: 0cm; line-height: 100%"><font face="Arial, sans-serif"><font size="3" style="font-size: 12pt">	Como
+mostra a figura abaixo, temos como tend&ecirc;ncia central a m&eacute;dia,
+a mediana e a moda. Como temos valores &uacute;nicos, os dados foram
+ajuntados em uma tabela de frequ&ecirc;ncias na qual os dados s&atilde;o
+inseridos a partir de suas unidades.</font></font></p>
+<p style="margin-bottom: 0cm; line-height: 100%"><font face="Arial, sans-serif"><font size="3" style="font-size: 12pt">Como
+medidas de variabilidades, temos a amplitude(range), a amplitude
+interquartil(IQR), e o desvio padr&atilde;o.</font></font></p>
+<p style="margin-bottom: 0cm;height: 140%;  line-height: 100%"><img src="p1_v2_html_81eecd0491fa9e5c.gif" name="Object1" align="left" width="688" height="870"/>
+<br/>
+
+</p>
+<p style="margin-bottom: 0cm; line-height: 100%"> 
+</p>
+<p style="margin-bottom: 0cm; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0cm; line-height: 100%"><a name="docs-internal-guid-1c723faf-ac9b-4d5a-9f43-1a717f20a9d2"></a>
+<font face="Arial, sans-serif"><font size="3" style="font-size: 12pt"><b>4)
+<span style="font-variant: normal"><font color="#000000"><span style="text-decoration: none"><span style="font-style: normal"><span style="background: transparent">Forne&ccedil;a
+uma ou duas visualiza&ccedil;&otilde;es que mostre a distribui&ccedil;&atilde;o
+da amostra de dados. Escreva uma ou duas senten&ccedil;as sobre o que
+voc&ecirc; observou do gr&aacute;fico ou gr&aacute;ficos.</span></span></span></font></span></b></font></font></p>
+<p style="margin-bottom: 0cm; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0cm;height: 40%;  line-height: 100%"><img src="p1_v2_html_bd7eed19d3990cda.png" name="Image1" align="left" width="643" height="188" border="0"/>
+<br/>
+
+</p>
+<p style="margin-bottom: 0cm; line-height: 100%"><font face="Arial, sans-serif"><font size="3" style="font-size: 12pt">	Analisando
+os gr&aacute;ficos de frequ&ecirc;ncia, podemos perceber que ambos
+tem uma tend&ecirc;ncia &agrave; distribui&ccedil;&atilde;o normal,
+por&eacute;m o tamanho das amostras &eacute; pequeno para mostrar
+isso claramente.  Analisando as amplitudes amostrais, tendemos a
+achar que o gr&aacute;fico do teste incongruente &eacute; muito mais
+espalhado, por&eacute;m, os valores da amplitude interquartil s&atilde;o
+bastante pr&oacute;ximos, pelo fato do teste incongruente apresentar
+<i>outliers</i>.</font></font></p>
+<p style="margin-bottom: 0cm; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0cm; line-height: 100%"><a name="docs-internal-guid-1c723faf-aca7-6f73-b494-ba9c0d7311b8"></a>
+<font face="Arial, sans-serif"><font size="3" style="font-size: 12pt"><b><span style="font-variant: normal"><font color="#000000"><span style="text-decoration: none"><span style="font-style: normal"><span style="background: transparent">5)
+</span></span></span></font></span><span style="font-variant: normal"><font color="#000000"><span style="text-decoration: none"><span style="font-style: normal"><span style="background: transparent">Agora
+desempenhe o teste estat&iacute;stico e reporte seus resultados. Qual
+seu n&iacute;vel de confian&ccedil;a e o valor estat&iacute;stico
+cr&iacute;tico? Voc&ecirc; rejeitou a hip&oacute;tese nula ou falhou
+ao tentar rejeit&aacute;-la? Encontre uma conclus&atilde;o em rela&ccedil;&atilde;o
+ao experimento da tarefa. Os resultados est&atilde;o de acordo com
+suas expectativas?</span></span></span></font></span></b></font></font></p>
+<p style="margin-bottom: 0cm; line-height: 100%"><font face="Arial, sans-serif"><font size="3" style="font-size: 12pt">Para
+este teste t temos duas hip&oacute;teses:</font></font></p>
+<p style="margin-bottom: 0cm; line-height: 100%"><font face="Arial, sans-serif"><font size="3" style="font-size: 12pt">H0:
+As duas amostras n&atilde;o ter&atilde;o diferen&ccedil;as
+substanciais</font></font></p>
+<p style="margin-bottom: 0cm; line-height: 100%"><font face="Arial, sans-serif"><font size="3" style="font-size: 12pt">H1:
+As duas amostras ser&atilde;o substancialmente diferentes</font></font></p>
+<p style="margin-bottom: 0cm; line-height: 100%"><font face="Arial, sans-serif"><font size="3" style="font-size: 12pt">O
+intervalo de confian&ccedil;a desejado &eacute; de 99,5%, ou seja,
+n&iacute;vel alfa = 0,005.</font></font></p>
+<p style="margin-bottom: 0cm; line-height: 100%"><font face="Arial, sans-serif"><font size="3" style="font-size: 12pt">Para
+achar o valor da estat&iacute;stica t, precisamos das m&eacute;dias
+amostrais, do desvio padr&atilde;o da diferen&ccedil;a das
+amostras(S) e o tamanho das amostras(n). Como estamos lidando com
+amostras, temos que inferir o desvio padr&atilde;o da popula&ccedil;&atilde;o
+utilizando a corre&ccedil;&atilde;o de Bessel, por isso a vari&acirc;ncia
+ser&aacute; dividida por 23(n-1). As m&eacute;dias amostrais est&atilde;o
+no quadro da quest&atilde;o 3.</font></font></p>
+<p style="margin-bottom: 0cm; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0cm;height: 70%;  line-height: 100%"><img src="p1_v2_html_90b95ad018f785d0.gif" name="Object2" align="left" width="621" height="427"/>
+<br/>
+
+</p>
+<p style="margin-bottom: 0cm; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0cm; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0cm; line-height: 100%"><font face="Arial, sans-serif"><font size="3" style="font-size: 12pt">Temos
+que o valor da estat&iacute;stica t &eacute; -8,021. Como escolhemos
+o n&iacute;vel alfa igual a 0,005 e o teste &eacute; bicaudal, na
+tabela T procuramos na coluna 0,0025 com 23 graus de liberdade, j&aacute;
+que o tamanho da amostra &eacute; 24. O valor de t cr&iacute;tico
+encontrado &eacute; 3,091. </font></font>
+</p>
+<p style="margin-bottom: 0cm; height: 40%;  line-height: 100%"><img src="p1_v2_html_7297d5ecd7b58c97.png" name="Image2" align="left" width="615" height="258" border="0"/>
+<br/>
+
+<font face="Arial, sans-serif"><font size="3" style="font-size: 12pt">Como
+o valor da estat&iacute;stica t encontrado est&aacute; dentro da
+regi&atilde;o cr&iacute;tica, abaixo de -t, n&oacute;s rejeitamos a
+hip&oacute;tese nula, j&aacute; que provamos que as duas amostras s&atilde;o
+substancialmente diferentes. O resultado j&aacute; era esperado, j&aacute;
+que o experimento foi realizado por este autor e o resultado mostrou
+uma diferen&ccedil;a consider&aacute;vel entre os tempos dos dois
+testes(mais de 7 segundos). No in&iacute;cio do projeto vimos que a
+m&eacute;dia do teste incongruente &eacute; bem pr&oacute;xima do
+&uacute;ltimo valor do teste congruente(22,328), confirmando a
+informa&ccedil;&atilde;o de que os tempos do teste incongruente s&atilde;o
+bem maiores que o do teste congruente. </font></font>
+</p>
+<p style="margin-bottom: 0cm; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0cm; font-variant: normal; font-style: normal; font-weight: normal; line-height: 100%; text-decoration: none"><a name="docs-internal-guid-ebdb6391-aef8-bf5a-54bb-2687a97fd3b5"></a>
+<font color="#000000"><font face="Arial"><font size="2" style="font-size: 10pt"><span style="background: transparent"><font size="3" style="font-size: 12pt"><b>6)
+</b></font><font size="3" style="font-size: 12pt"><b>Opcional: O que
+voc&ecirc; acha que &eacute; respons&aacute;vel pelo efeito
+observado? Consegue pensar em uma alternativa ou tarefa similar que
+resultaria em um efeito parecido?</b></font></span></font></font></font></p>
+<p style="margin-bottom: 0cm; font-variant: normal; font-style: normal; font-weight: normal; line-height: 100%; text-decoration: none">
+<font color="#000000"><font face="Arial"><font size="3" style="font-size: 12pt"><span style="background: transparent">	Imaginei
+que ao passar nossos olhos sobre uma palavra do teste incongruente,
+nosso subconsciente a l&ecirc; automaticamente e o atraso no tempo de
+resposta seria causado por um conflito decorrente do processo de
+escolha do nosso c&eacute;rebro entre duas palavras. Ao pesquisar um
+pouco sobre o assunto, descobri que o nome disso &eacute;
+<i>interfer&ecirc;ncia sem&acirc;ntica, </i>pois s&oacute; ocorre
+quando utilizamos palavras. Sendo assim, imagino dois testes que
+provavelmente teriam o mesmo resultado:</span></font></font></font></p>
+<p style="margin-bottom: 0cm; font-variant: normal; font-style: normal; font-weight: normal; line-height: 100%; text-decoration: none">
+<font color="#000000"><font face="Arial"><font size="3" style="font-size: 12pt"><span style="background: transparent">1
+&ndash; Um teste com formas geom&eacute;tricas e, dentro delas, o
+nome de outra forma geom&eacute;trica.<br/>
+Exemplo: Um quadrado com
+a palavra &ldquo;tri&acirc;ngulo&rdquo; dentro dele.</span></font></font></font></p>
+<p style="margin-bottom: 0cm; font-variant: normal; font-style: normal; font-weight: normal; line-height: 100%; text-decoration: none">
+<font color="#000000"><font face="Arial"><font size="3" style="font-size: 12pt"><span style="background: transparent">2
+&ndash; Um teste mostrando imagens de a&ccedil;&otilde;es, com uma
+palavra descrevendo outra a&ccedil;&atilde;o logo abaixo.</span></font></font></font></p>
+<p style="margin-bottom: 0cm; font-variant: normal; font-style: normal; font-weight: normal; line-height: 100%; text-decoration: none">
+<font color="#000000"><font face="Arial"><font size="3" style="font-size: 12pt"><span style="background: transparent">Exemplo:
+Uma imagem de uma pessoa bebendo &aacute;gua e abaixo, a palavra
+&ldquo;comendo&rdquo;</span></font></font></font></p>
+<p style="margin-bottom: 0cm; line-height: 100%"><br/>
+
+</p>
+</body>
+</html>
