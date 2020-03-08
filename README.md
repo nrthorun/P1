@@ -14,7 +14,7 @@ The independent variable is the condition of congruence (whether words are congr
 
 Defining the hipothesis:
 
- ![hipothesis](hipothesis.png "Hipothesis")
+ ![hipothesis](Images/hipothesis.png?raw=true "Hipothesis")
 
 ##### What would be an appropriate set of hypotheses for this task? What kind of statistical test do you expect to perform? Justify your choices.
 
@@ -26,32 +26,32 @@ The statistical test expected to perform this task is the _t-test,_ as we do not
 
 As the tables below show, we have as a central tendency the mean, the median and the mode. As we have unique values, the data was gathered in a frequency table in which the data is inserted from its units.
 
-|	Congruent	|	|	Incongruent	|
-|	:------:	|	|	:------:	|
-|	22.328	|	|	35.255	|
-|	19.710	|	|	34.288	|
-|	18.495	|	|	26.282	|
-|	18.200	|	|	25.139	|
-|	16.929	|	|	24.572	|
-|	16.791	|	|	24.524	|
-|	16.004	|	|	23.894	|
-|	15.298	|	|	22.803	|
-|	15.073	|	|	22.158	|
-|	14.692	|	|	22.058	|
-|	14.669	|	|	21.214	|
-|	14.480	|	|	21.157	|
-|	14.233	|	|	20.878	|
-|	12.944	|	|	20.762	|
-|	12.369	|	|	20.429	|
-|	12.238	|	|	20.330	|
-|	12.130	|	|	19.278	|
-|	12.079	|	|	18.741	|
-|	11.344	|	|	18.644	|
-|	10.639	|	|	17.960	|
-|	9.564	|	|	17.510	|
-|	9.401	|	|	17.425	|
-|	8.987	|	|	17.394	|
-|	8.630	|	|	15.687	|
+|	Congruent	|	Incongruent	|
+|	:------:	|	:------:	|
+|	22.328		|	35.255	|
+|	19.710		|	34.288	|
+|	18.495		|	26.282	|
+|	18.200		|	25.139	|
+|	16.929		|	24.572	|
+|	16.791		|	24.524	|
+|	16.004		|	23.894	|
+|	15.298		|	22.803	|
+|	15.073		|	22.158	|
+|	14.692		|	22.058	|
+|	14.669		|	21.214	|
+|	14.480		|	21.157	|
+|	14.233		|	20.878	|
+|	12.944		|	20.762	|
+|	12.369		|	20.429	|
+|	12.238		|	20.330	|
+|	12.130		|	19.278	|
+|	12.079		|	18.741	|
+|	11.344		|	18.644	|
+|	10.639		|	17.960	|
+|	9.564		|	17.510	|
+|	9.401		|	17.425	|
+|	8.987		|	17.394	|
+|	8.630		|	15.687	|
 
 | | Congruent | Incongruent | 
 |:-------|:------:|:------:|
@@ -74,7 +74,7 @@ As measures of variability, we have the range, the interquartile range (IQR), an
  
 ##### Provide one or two visualizations that show the distribution of the sample data. Write a sentence or two about what you observed from the chart or charts.
 
- ![Frequency](frequency.png "Frequency")
+ ![Frequency](Images/frequency.png?raw=true "Frequency")
 
 Analyzing the frequency charts, we can see that both have a tendency to normal distribution, but the sample size is small to show it clearly. Analyzing the ranges, we tend to think that the chart of the incongruous test is much more spread out, however, the values of the interquartile range are quite close, due to the fact that the incongruous test has outliers.
 
@@ -126,7 +126,7 @@ To find the value of the _t-statistic,_ we need the sample means, the standard d
 
 We have that the value of the _t-statistic_ is `-8.021`. As we chose the alpha level equal to `0.005` and the test is two-tailed, in Table T we look in column `0.0025` with 23 degrees of freedom, since the sample size is 24. The critical t value found is `3.091`.
 
- ![T Statistic](chart.png "T Statistic")
+ ![T Statistic](Images/chart.png?raw=true "T Statistic")
 
 Since the value of the t-statistic found is within the critical region, below -t, we reject the null hypothesis, as we prove that the two samples are substantially different. The result was already expected, since the experiment was carried out by this author and the result showed a considerable difference between the times of the two tests (more than 7 seconds). At the beginning of the project we saw that the average of the incongruent test is very close to the last value of the congruent test (`22.328`), confirming the information that the times of the incongruent test are much longer than that of the congruent test.
 
